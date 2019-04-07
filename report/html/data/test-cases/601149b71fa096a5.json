@@ -1,0 +1,66 @@
+{
+  "uid" : "601149b71fa096a5",
+  "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_Ufail",
+  "fullName" : "testcase.E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_Ufail",
+  "historyId" : "3eefef27d5f52d469f76eb000fb6c524",
+  "time" : {
+    "start" : 1554607816131,
+    "stop" : 1554607816145,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0KN27LO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用户名错误"
+  }, {
+    "name" : "thread",
+    "value" : "7472-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_Ufail"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "601149b71fa096a5.json",
+  "parameterValues" : [ ]
+}

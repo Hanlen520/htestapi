@@ -1,0 +1,72 @@
+{
+  "uid" : "8daf932a1970237a",
+  "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_username_none",
+  "fullName" : "testcase.E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_username_none",
+  "historyId" : "6a35ab216176c4acf5d8f6c9e3305d7e",
+  "time" : {
+    "start" : 1554607816146,
+    "stop" : 1554607816233,
+    "duration" : 87
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3010 == 301",
+  "statusTrace" : "self = <testcase.sys.test_sys_login.Test_Login object at 0x000001955CE9EB00>\n\n    @allure.story('用户名为空')\n    def test_login_username_none(self):  #用户名为空\n        data={\n            'userName': '',\n            'password': CommonData.password\n        }\n        resp = http.post(\"/sys/login\", data)\n>       assert resp['code'] == 301\nE       assert 3010 == 301\n\ntestcase\\sys\\test_sys_login.py:44: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0KN27LO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用户名为空"
+  }, {
+    "name" : "thread",
+    "value" : "7472-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_username_none"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8daf932a1970237a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "8fdb4523f5761fc7",
+  "name" : "E:\\htestapi\\testcase\\sys.test_sys_getUserInfo.Test_GetUserInfo.test_getUserInfo",
+  "fullName" : "testcase.E:\\htestapi\\testcase\\sys.test_sys_getUserInfo.Test_GetUserInfo.test_getUserInfo",
+  "historyId" : "f293ceb25dc7f4a6ba0c23642dac81e2",
+  "time" : {
+    "start" : 1554607816021,
+    "stop" : 1554607816048,
+    "duration" : 27
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取用户信息模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0KN27LO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "获取用户信息"
+  }, {
+    "name" : "thread",
+    "value" : "7472-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\htestapi\\testcase\\sys.test_sys_getUserInfo.Test_GetUserInfo.test_getUserInfo"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fdb4523f5761fc7.json",
+  "parameterValues" : [ ]
+}

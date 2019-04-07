@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3010 == 301",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_username_none",
+        "uid" : "8daf932a1970237a",
+        "parentUid" : "805477a34fb231f67c6d9f36c9cbd9a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554607816146,
+          "stop" : 1554607816233,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "805477a34fb231f67c6d9f36c9cbd9a2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

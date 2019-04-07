@@ -1,0 +1,66 @@
+{
+  "uid" : "4df04127c5753f5",
+  "name" : "E:\\htestapi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loaduserlist",
+  "fullName" : "testcase.E:\\htestapi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loaduserlist",
+  "historyId" : "4a42df492737b1b0d043356cd4e46aad",
+  "time" : {
+    "start" : 1554607816437,
+    "stop" : 1554607816459,
+    "duration" : 22
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "加载用户列表模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0KN27LO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "加载用户列表成功"
+  }, {
+    "name" : "thread",
+    "value" : "7472-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\htestapi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loaduserlist"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4df04127c5753f5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,174 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554607815831" stop="1554607816459">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554607815831" status="passed" stop="1554607815983">
+      <name>E:\htestapi\testcase\sys.test_sys_changePwd.Test_ChangePwd.test_changepwd_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="修改密码成功"/>
+        <label name="feature" value="修改密码模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816021" status="passed" stop="1554607816048">
+      <name>E:\htestapi\testcase\sys.test_sys_getUserInfo.Test_GetUserInfo.test_getUserInfo</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="获取用户信息"/>
+        <label name="feature" value="获取用户信息模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816048" status="passed" stop="1554607816080">
+      <name>E:\htestapi\testcase\sys.test_sys_login.Test_Login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="登录成功"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816081" status="passed" stop="1554607816130">
+      <name>E:\htestapi\testcase\sys.test_sys_login.Test_Login.test_login_Pfail</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="密码错误"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816131" status="passed" stop="1554607816145">
+      <name>E:\htestapi\testcase\sys.test_sys_login.Test_Login.test_login_Ufail</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="用户名错误"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816146" status="failed" stop="1554607816233">
+      <name>E:\htestapi\testcase\sys.test_sys_login.Test_Login.test_login_username_none</name>
+      <failure>
+        <message>AssertionError: assert 3010 == 301</message>
+        <stack-trace>self = &lt;testcase.sys.test_sys_login.Test_Login object at 0x000001955CE9EB00&gt;
+
+    @allure.story('用户名为空')
+    def test_login_username_none(self):  #用户名为空
+        data={
+            'userName': '',
+            'password': CommonData.password
+        }
+        resp = http.post("/sys/login", data)
+&gt;       assert resp['code'] == 301
+E       assert 3010 == 301
+
+testcase\sys\test_sys_login.py:44: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="用户名为空"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816234" status="passed" stop="1554607816267">
+      <name>E:\htestapi\testcase\sys.test_sys_login.Test_Login.test_login_password_none</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="密码为空"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816268" status="passed" stop="1554607816296">
+      <name>E:\htestapi\testcase\sys.test_sys_login.Test_Login.test_login_username_special</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="用户名包含特殊字符"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816297" status="passed" stop="1554607816315">
+      <name>E:\htestapi\testcase\sys.test_sys_login.Test_Login.test_login_username_long</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="用户名过长"/>
+        <label name="feature" value="登录模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816316" status="passed" stop="1554607816437">
+      <name>E:\htestapi\testcase\user.test_user_loadUserInfo.Test_Login.test_adduser</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554607816437" status="passed" stop="1554607816459">
+      <name>E:\htestapi\testcase\user.test_user_loadUserList.Test_LoadUserList.test_loaduserlist</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="加载用户列表成功"/>
+        <label name="feature" value="加载用户列表模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7472-MainThread"/>
+        <label name="host" value="DESKTOP-0KN27LO"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

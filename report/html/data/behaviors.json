@@ -1,0 +1,193 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "修改密码模块",
+    "children" : [ {
+      "name" : "修改密码成功",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_changePwd.Test_ChangePwd.test_changepwd_success",
+        "uid" : "547dd3d4dc534acd",
+        "parentUid" : "a38462b3f4314282ccc0eb63786aa59e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607815831,
+          "stop" : 1554607815983,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a38462b3f4314282ccc0eb63786aa59e"
+    } ],
+    "uid" : "305a3b4fed53266ad019359911e11777"
+  }, {
+    "name" : "获取用户信息模块",
+    "children" : [ {
+      "name" : "获取用户信息",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_getUserInfo.Test_GetUserInfo.test_getUserInfo",
+        "uid" : "8fdb4523f5761fc7",
+        "parentUid" : "2e39286e54e5d05f185ce44b746621ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816021,
+          "stop" : 1554607816048,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e39286e54e5d05f185ce44b746621ee"
+    } ],
+    "uid" : "de92305d835ca068670dae1d51a782c9"
+  }, {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_success",
+        "uid" : "489dd9e2b441e93e",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816048,
+          "stop" : 1554607816080,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57a00934f1bd353362aa1d78642bc405"
+    }, {
+      "name" : "密码错误",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_Pfail",
+        "uid" : "ba5dd6479772e83",
+        "parentUid" : "7b4621ffa98753a029c914c85d979709",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816081,
+          "stop" : 1554607816130,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b4621ffa98753a029c914c85d979709"
+    }, {
+      "name" : "用户名错误",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_Ufail",
+        "uid" : "601149b71fa096a5",
+        "parentUid" : "d53b787e5f5d16a9fbdc051c95482964",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816131,
+          "stop" : 1554607816145,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d53b787e5f5d16a9fbdc051c95482964"
+    }, {
+      "name" : "用户名为空",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_username_none",
+        "uid" : "8daf932a1970237a",
+        "parentUid" : "841d48ac11104bee7adc28cae4831e75",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554607816146,
+          "stop" : 1554607816233,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "841d48ac11104bee7adc28cae4831e75"
+    }, {
+      "name" : "密码为空",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_password_none",
+        "uid" : "3da61000321c8ef6",
+        "parentUid" : "71ec575151a9256d34258d9293a5aa08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816234,
+          "stop" : 1554607816267,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71ec575151a9256d34258d9293a5aa08"
+    }, {
+      "name" : "用户名包含特殊字符",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_username_special",
+        "uid" : "c8a800c6b647006c",
+        "parentUid" : "725a01ab1710f6451ac11e26073a82d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816268,
+          "stop" : 1554607816296,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "725a01ab1710f6451ac11e26073a82d5"
+    }, {
+      "name" : "用户名过长",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_username_long",
+        "uid" : "a663b8ff4b287b4b",
+        "parentUid" : "951d4e4cf62ac951c0d9a2b5632ed3f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816297,
+          "stop" : 1554607816315,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "951d4e4cf62ac951c0d9a2b5632ed3f5"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "E:\\htestapi\\testcase\\user.test_user_loadUserInfo.Test_Login.test_adduser",
+    "uid" : "48505ba9fbbe3d4c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1554607816316,
+      "stop" : 1554607816437,
+      "duration" : 121
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "加载用户列表模块",
+    "children" : [ {
+      "name" : "加载用户列表成功",
+      "children" : [ {
+        "name" : "E:\\htestapi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loaduserlist",
+        "uid" : "4df04127c5753f5",
+        "parentUid" : "2d5c265da130502517caac6998621eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554607816437,
+          "stop" : 1554607816459,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d5c265da130502517caac6998621eb2"
+    } ],
+    "uid" : "84f7808dca12e05d1d79788bcf0dc831"
+  } ]
+}

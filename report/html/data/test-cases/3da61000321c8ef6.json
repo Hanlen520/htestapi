@@ -1,0 +1,66 @@
+{
+  "uid" : "3da61000321c8ef6",
+  "name" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_password_none",
+  "fullName" : "testcase.E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_password_none",
+  "historyId" : "b2c95af4d656eaa9a8be7e29cb9d8fc2",
+  "time" : {
+    "start" : 1554607816234,
+    "stop" : 1554607816267,
+    "duration" : 33
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0KN27LO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "密码为空"
+  }, {
+    "name" : "thread",
+    "value" : "7472-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\htestapi\\testcase\\sys.test_sys_login.Test_Login.test_login_password_none"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3da61000321c8ef6.json",
+  "parameterValues" : [ ]
+}
